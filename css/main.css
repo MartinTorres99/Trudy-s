@@ -44,21 +44,34 @@ body{
     list-style: none;
     
 }
+    
+
 
 
 .menu > li{
     position: relative;
 display: inline-block;
+
+
 }
+
 
 .menu > li > a{
     display: block;
     padding: 13px 20px;
     color: black;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     text-decoration: none;
+
     
+    
+}
+.menu > li :hover{
+    transform: scale(1.0);
+    background-color: black;
+    color: chocolate;
+font-weight: bold;
 }
 
 /*Submenu*/
@@ -68,6 +81,8 @@ display: inline-block;
     background-color: rgb(255, 136, 0);
     display: none;
     width: 100%;
+   
+}
     
 }
 .Submenu li a{
@@ -76,10 +91,15 @@ display: inline-block;
     color: black;
     font-size: 15px;
     text-decoration: none;
+   
 }
-.menu li:hover .Submenu{
+}
+.menu li .Submenu{
     display: block;
+    
 }
+
+
 
 h1{
     
@@ -141,8 +161,7 @@ h3.lorem{
     
 }
 .veterinario{
-    height: px;
-    width: x;
+   
     padding-top: 3%;
     display: block;
     
@@ -164,30 +183,24 @@ h3.lorem{
     text-decoration: none;
     text-align: center; 
     justify-content: center;
-}
+   
 
 
 
 
-/* CONTACTOS* */
+/* CONTACTOS */
 
-.fond{
-    background-color: grey;
-    text-align: center;
-    justify-content: center;
 
-}
 .contactanos{
-    text-align: center;
-    text-decoration: none;
-    justify-content: center;
-    display: block;
-    padding-right: 170px;
-    padding-top: 160px;
+    text-align: center
+    text-decoration: none
+    justify-content: center
+    display: block
+    padding-right: 170px
+    padding-top: 160px
     font-family: 'Staatliches', cursive;
+    }
     
-    
-}
 .option{
     padding-left: 510px;
     padding-top: 20px;
